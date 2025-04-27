@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your mood today?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp"/>
+
+    <!-- 7 Moods -->
+    <Button
+        android:id="@+id/btnHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy" />
+
+    <Button
+        android:id="@+id/btnSad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sad" />
+
+    <Button
+        android:id="@+id/btnAdventurous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adventurous" />
+
+    <Button
+        android:id="@+id/btnRomantic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Romantic" />
+
+    <Button
+        android:id="@+id/btnRelaxed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relaxed" />
+
+    <Button
+        android:id="@+id/btnBored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bored" />
+
+    <Button
+        android:id="@+id/btnExcited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excited" />
+
+</LinearLayout>

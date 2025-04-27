@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme -->
+    <style name="Theme.Moodbaseddestinationapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <!-- Happy Mood Text Style -->
+    <style name="HappyTextStyle">
+        <item name="android:textColor">@color/colorHappy</item> <!-- Yellow -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Sad Mood Text Style -->
+    <style name="SadTextStyle">
+        <item name="android:textColor">@color/colorSad</item> <!-- Blue -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:letterSpacing">0.02</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Adventurous Mood Text Style -->
+    <style name="AdventurousTextStyle">
+        <item name="android:textColor">@color/colorAdventurous</item> <!-- Green -->
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Romantic Mood Text Style -->
+    <style name="RomanticTextStyle">
+        <item name="android:textColor">@color/colorRomantic</item> <!-- Pink -->
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:letterSpacing">0.05</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Relaxed Mood Text Style -->
+    <style name="RelaxedTextStyle">
+        <item name="android:textColor">@color/colorRelaxed</item> <!-- Teal -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.03</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Excited Mood Text Style -->
+    <style name="ExcitedTextStyle">
+        <item name="android:textColor">@color/colorExcited</item> <!-- Orange -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.04</item> <!-- Slight letter spacing -->
+    </style>
+
+    <!-- Bored Mood Text Style -->
+    <style name="BoredTextStyle">
+        <item name="android:textColor">@color/colorBored</item> <!-- Grey -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:letterSpacing">0.02</item> <!-- Slight letter spacing -->
+    </style>
+
+</resources>
